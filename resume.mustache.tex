@@ -1,0 +1,48 @@
+% {{=<< >>=}}
+\documentclass[draft=on, 10pt]{scrbook}
+\usepackage{color}
+\usepackage[none]{hyphenat}
+
+\setlength\parindent{0pt} % suppress indentation
+
+\begin{document}
+
+%
+% Experience
+%
+
+<<#experience>>
+% <<company>>
+\begin{minipage}[t]{1\textwidth}
+
+    \begin{minipage}[t]{.3\textwidth}
+    
+    {\Large \textcolor{blue}{<<company>>}}
+    
+    <<location>>
+    
+    \end{minipage}
+    \begin{minipage}[t]{.3\textwidth}
+    
+    {\Large <<position>>}
+    
+    <<dates.start>> - <<dates.end>>
+    
+    \end{minipage}
+    \begin{minipage}[t]{.35\textwidth}
+    
+    \begin{itemize}
+        <<#details>>
+            \item <<.>>
+        <</details>>
+    \end{itemize}
+    
+    \end{minipage}
+
+\end{minipage}
+
+
+<</experience>>
+
+
+\end{document}

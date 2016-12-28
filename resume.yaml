@@ -1,0 +1,197 @@
+# Resume
+
+firstName: Kelvin
+
+lastName: Abrokwa-Johnson
+
+email: kelvinabrokwa@gmail.com
+
+phone: (571) 471-2696
+
+address: 116 Indigo Terrace, Williamsburg, VA 23185
+
+homepage:
+    name: abrokwa.org
+    url: http://abrokwa.org
+
+experience:
+    - company: Eero
+      position: Embedded Software Engineering Intern
+      dates:
+          start: May 2017
+          end: August 2017
+      location: San Francisco, CA
+      details:
+        - Worked on operating system
+        - Bring up
+        - Perhaps IPv6
+      webpage: https://eero.com
+
+    - company: NBT Solutions
+      position: Software Engineering Intern
+      dates:
+          start: January 2017
+          end: May 2017
+      location: Buffalo, NY
+      details:
+        - Web map rendering performace profiling
+        - Performance optimization
+        - Scaling
+      webpage: http://www.nbtsolutions.com
+
+    - company: Google
+      position: Backend Software Engineering Intern
+      dates:
+          start: May 2016
+          end: Aug 2016
+      location: Palo Alto, CA
+      details:
+        - Backend at Nest
+        - Data store status API
+        - Data pipelines
+      webpage: https://www.google.com/
+
+    - company: Mapbox
+      position: Software Engineering Intern
+      dates:
+          start: January 2015
+          end: April 2016
+      location: Washington, DC
+      details:
+        - GL-Draw
+        - Mapbox Studio
+        - Open Addresses
+      webpage: https://www.mapbox.com
+
+    - company: AidData
+      position: Data Management Research Assistant
+      dates:
+          start: July 2014
+          end: January 2016
+      location: Williamsburg, VA
+      details:
+        - Data QA pipelines
+        - Data visualization
+      webpage: http://aiddata.org
+
+    - company: William & Mary Campus Recreation
+      position: Fitness Instructor
+      dates:
+          start: January 2014
+          end: December 2014
+      location: Williamsburg, VA
+      details:
+        - Taught fitness classes
+      webpage: http://www.wm.edu/offices/wellness/campusrec
+
+
+research:
+    - Telerobotics prototyping in collaboration with NASA Langley
+    - Computational dynamical systems analysis at The College of William & Mary
+    - Topological data analysis at The College of William & Mary
+
+project:
+    - name: GL-Draw
+      description: Geospatial data editing tool
+      url: abrokwa.org
+
+    - name: Robo Ops
+      description: Telerobotics prototyping
+      url: abrokwa.org
+
+    - name: Sched
+      description: Course scheduling app
+      url: abrokwa.org
+
+    - name: Nachos
+      description: Toy operating system
+      url: abrokwa.org
+
+    - name: WM Courses
+      description: Better Course list
+      url: abrokwa.org
+
+    - name: WM Eats
+      description: Food in dining halls
+      url: abrokwa.org
+
+education:
+    - school: The College of William & Mary
+      degree: B.S. Applied Computational Mathematics
+      dates:
+          start: August 2013
+          end: December 2017
+      details:
+        - Minor in Computer Science
+        - Dean's list
+      relevantCoursework:
+        - Operating Systems
+        - Simulation
+        - Computer Organization
+        - Software development
+        - Algorithms
+        - Data Structures
+        - Programming Languages
+        - Linear Algebra
+        - Numerical Analysis
+        - Probability
+
+    - school: Stonewall Jackson High School
+      degree: International Baccalaureate Diploma
+      dates:
+          start: September 2009
+          end: June 2013
+      details:
+        - Top 1%
+        - Nation Merit Scholarship Semi-Finalist
+        - Varsity tennis captain
+
+skills:
+    - skill: languages
+      items:
+        - C
+        - C++
+        - Python
+        - Go
+        - Java
+        - JavaScript/Node.js
+        - Bash
+        - Julia
+        - Matlab
+        - SQL
+    - skill: tools
+      items:
+        - Linux/Unix
+        - Git
+        - SVN
+        - AWS
+        - GCP
+        - Latex
+        - Make
+    - skill: web
+      items:
+        - HTML5
+        - CSS3
+        - React.js
+        - D3.js
+        - Nginx
+        - Express.js
+        - Django
+
+spokenLanguages:
+    - French
+    - Ga
+    - Twi
+    - Arabic
+
+interests:
+    - soccer
+    - distance running
+    - tennis
+    - music performance
+    - electronics
+    - mathematics
+    - poetry
+    - design
+    - visual art
+
