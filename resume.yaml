@@ -1,20 +1,25 @@
 # Resume
 
 firstName: Kelvin
-
 lastName: Abrokwa-Johnson
-
 email: kelvinabrokwa@gmail.com
-
 phone: (571) 471-2696
-
-address: 116 Indigo Terrace, Williamsburg, VA 23185
+address: 1405 Van Ness Ave. Apt. 404, San Francisco, CA 94109
 
 homepage:
     name: abrokwa.org
     url: http://abrokwa.org
 
 experience:
+    - company: Square
+      position: Embedded Software Engineer
+      dates:
+          start: January 2018
+      location: San Francisco, CA
+      details:
+          - Android platform engineer
+      webpage: https://squareup.com/
+
     - company: Eero
       position: Embedded Software Engineering Intern
       dates:
@@ -22,9 +27,9 @@ experience:
           end: August 2017
       location: San Francisco, CA
       details:
-        - Worked on operating system
-        - Bring up
-        - Perhaps IPv6
+        - Worked on embedded software team for the eero mesh wifi router
+        - Designed and implemented memory profiling tools for the router
+        - Improved visibility into router operation by adding logging for network events in libraries like hostapd
       webpage: https://eero.com
 
     - company: NBT Solutions
@@ -34,21 +39,20 @@ experience:
           end: May 2017
       location: Buffalo, NY
       details:
-        - Web map rendering performace profiling
-        - Performance optimization
-        - Scaling
+        - Researched ways of transmitting and visualizing large geospatial datasets in the browser
+        - Designed and implemented a Javascript library for parsing and rendering vector tiles
       webpage: http://www.nbtsolutions.com
 
     - company: Google
-      position: Backend Software Engineering Intern
+      position: Software Engineering Intern
       dates:
           start: May 2016
           end: Aug 2016
       location: Palo Alto, CA
       details:
-        - Backend at Nest
-        - Data store status API
-        - Data pipelines
+        - Worked on backend services at Nest, focusing on data infrastructure
+        - Architected and implemented REST API and dashboard for monitoring loading of and access to data in GCP BigQuery
+        - Designed and built data pipelines for log and billing data
       webpage: https://www.google.com/
 
     - company: Mapbox
@@ -58,9 +62,9 @@ experience:
           end: April 2016
       location: Washington, DC
       details:
-        - GL-Draw
-        - Mapbox Studio
-        - Open Addresses
+        - Developed open source JavaScript libraries like GL-Draw, a drawing/editing tool for geospatial data powered by the Mapbox-GL.js renderer
+        - Worked with a team to develop Mapbox Studio, a state of the art Cartography tool in the browser
+        - Contributed to open source projects like Open Addresses and developed data import pipelines for the geocoder
       webpage: https://www.mapbox.com
 
     - company: AidData
@@ -70,8 +74,8 @@ experience:
           end: January 2016
       location: Williamsburg, VA
       details:
-        - Data QA pipelines
-        - Data visualization
+        - Wrote programs to automate the quality assurance pipeline of geocoded international aid data
+        - Created data visualization (D3.js, matplotlib, etc.) and reports (ReportLab) of monetary flows from aid donors to recipients
       webpage: http://aiddata.org
 
     - company: William & Mary Campus Recreation
@@ -81,14 +85,15 @@ experience:
           end: December 2014
       location: Williamsburg, VA
       details:
-        - Taught fitness classes
+        - Taught classes in Body Pump and small group series in TRX suspension training
+        - Exercised measures that facilitated a safe and healthy environment for all attendants
       webpage: http://www.wm.edu/offices/wellness/campusrec
 
 
 research:
+    - ThinSat satellite development project (TribeSat)
     - Telerobotics prototyping in collaboration with NASA Langley
     - Computational dynamical systems analysis at The College of William & Mary
-    - Topological data analysis at The College of William & Mary
 
 project:
     - name: GL-Draw
@@ -117,23 +122,28 @@ project:
 
 education:
     - school: The College of William & Mary
+      url: https://www.wm.edu/
       degree: B.S. Applied Computational Mathematics
       dates:
           start: August 2013
           end: December 2017
       details:
         - Minor in Computer Science
-        - Dean's list
+        - Graudated Manga Cum Laude
+        - James Monroe Scholar
+        - William and Mary Scholar
       relevantCoursework:
         - Operating Systems
         - Simulation
         - Computer Organization
-        - Software development
         - Algorithms
         - Data Structures
+        - Software Development
         - Programming Languages
+        - Abstract Algebra
         - Linear Algebra
         - Numerical Analysis
+        - Statistics
         - Probability
 
     - school: Stonewall Jackson High School
@@ -142,24 +152,27 @@ education:
           start: September 2009
           end: June 2013
       details:
-        - Top 1%
+        - Graduated with honors, top 1%
         - Nation Merit Scholarship Semi-Finalist
         - Varsity tennis captain
+        - President of National Honor Society
+        - President of French Honor Society
+        - Two-time PWC SPARK Award Recipient
 
 skills:
-    - skill: languages
+    - skill: Languages
       items:
         - C
         - C++
         - Python
+        - JavaScript/Node.js
         - Go
         - Java
-        - JavaScript/Node.js
         - Bash
         - Julia
         - Matlab
         - SQL
-    - skill: tools
+    - skill: Tools
       items:
         - Linux/Unix
         - Git
@@ -168,7 +181,7 @@ skills:
         - GCP
         - Latex
         - Make
-    - skill: web
+    - skill: Web
       items:
         - HTML5
         - CSS3
@@ -188,7 +201,7 @@ interests:
     - soccer
     - distance running
     - tennis
-    - music performance
+    - music composition/performance
     - electronics
     - mathematics
     - poetry

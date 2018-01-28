@@ -1,14 +1,20 @@
 # {{firstName}} {{lastName}}
 
+{{email}}
+
+{{phone}}
+
+{{address}}
+
 ## Experience
 {{#experience}}
-- ### [{{company}}]({{webpage}})
-  {{position}}
-  {{location}}
-  Details
-    {{#details}}
-    - {{.}}
-    {{/details}}
+### [{{company}}]({{webpage}})
+  **{{position}}**, {{location}}
+
+  {{#details}}
+  - {{.}}
+  {{/details}}
+
 {{/experience}}
 
 ## Skills
@@ -21,16 +27,35 @@
 
 ## Education
 {{#education}}
-- {{school}}
+- #### [{{school}}]({{url}})
+
   {{degree}}
+
   {{#details}}
-  {{.}}
+  - {{.}}
   {{/details}}
+
   Relevant Coursework
   {{#relevantCoursework}}
   - {{.}}
   {{/relevantCoursework}}
   {{^relevantCoursework}}
-  - none
   {{/relevantCoursework}}
+
 {{/education}}
+
+## Research
+{{#research}}
+- {{.}}
+{{/research}}
+
+
+## Languages
+{{#spokenLanguages}}
+- {{.}}
+{{/spokenLanguages}}
+
+## Interests
+{{#interests}}
+  - {{.}}
+{{/interests}}
